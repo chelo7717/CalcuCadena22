@@ -13,4 +13,7 @@ describe("CalculadoraCadenas", () => {
   it("deberia devolver la suma de una cadena de tres numero con - ", () => {
     expect(calculadoraCadenas("3-5,4")).toEqual(12);
   });
+  it("deberia devolver la suma de una cadena de cuatro numero con - y ( )", () => {
+    expect(calculadoraCadenas("3-5,4 3")).toEqual(15);
+  });
 });
