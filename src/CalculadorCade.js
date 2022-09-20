@@ -1,1 +1,3 @@
-
+function calculadoraCadenas(cadena){
+    
+}

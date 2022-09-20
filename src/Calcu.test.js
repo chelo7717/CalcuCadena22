@@ -1,7 +1,7 @@
-import sumar from "./sumador.js";
+import calculadoraCadenas from "./CalculadorCade.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("CalculadoraCadenas", () => {
+  it("deberia devolver un numero", () => {
+    expect(calculadoraCadenas("3")).toEqual(3);
   });
 });
