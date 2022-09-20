@@ -16,4 +16,8 @@ describe("CalculadoraCadenas", () => {
   it("deberia devolver la suma de una cadena de cuatro numero con - y ( )", () => {
     expect(calculadoraCadenas("3-5,4 3")).toEqual(15);
   });
+  it("deberia devolver la suma si no pasa 1000", () => {
+    expect(calculadoraCadenas("2,1001")).toEqual(2);
+  });
+  
 });
